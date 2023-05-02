@@ -8,12 +8,13 @@ Después de las imágenes de hash, el programa volverá a su ejecución y tardar
 
 
 ### OPCIÓN 1 (recomendada, ya que no requiere instalar bibliotecas):  ARCHIVO EJECUTABLE
-  El ejecutable puede ejecutarse en Windows haciendo doble click sobre él o navegando a la carpeta en donde se encuentra desde una terminal (cmd o powershell) y ejecutando el comando start main.exe
-  En linux, el ejecutable .exe se puede correr utilizando el comando wine main.exe (en caso de tener wine instalado). Si no se cuenta con wine en la distribución de linux, se puede instalar con el comando sudo apt-get wine64
+  El ejecutable puede ejecutarse en Windows haciendo doble click sobre él o navegando a la carpeta en donde se encuentra desde una terminal (cmd o powershell) y ejecutando el comando start main.exe.
+  En linux, el ejecutable .exe se puede correr utilizando el comando wine main.exe (en caso de tener wine instalado). Si no se cuenta con wine en la distribución de linux, se puede instalar con el comando sudo apt-get wine64.
+  Sistemas operativos MAC requieren de otras herramientas para ejecutar archivos .exe.
   
-### OPCIÓN 2: ARCHIVO .IPYNB
+### OPCIÓN 2: ARCHIVO .IPYNB (ejecutable desde cualquier SO, instalando las bibliotecas pertinentes)
   En esta opción, se debe de abrir un cuaderno de Jupyter Notebook o Google Colab y cargar el archivo .ipynb. Una vez cargado, en caso de no contar con las bibliotecas especificadas en requirements.txt, se debe de 
   ejecutar las celdas que dicen pip install ... Posteriormente, se ejecutan las celdas en el orden en el que se encuentran.
   
-### OPCIÓN 3: ARCHIVO .PY
+### OPCIÓN 3: ARCHIVO .PY (ejecutable desde cualquier SO, instalando las bibliotecas pertinentes)
   En esta opción, se debe de contar con las bibliotecas instaladas en el directorio de ejecución de main.py. El archivo main.py se ejecuta con el comando python main.py. 
